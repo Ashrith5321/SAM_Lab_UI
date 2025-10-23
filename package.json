@@ -1,0 +1,22 @@
+{
+  "name": "nine-motor-controller",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WebSerial interface to control 9 DC motors via Arduino using React + Vite.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "vite": "^5.4.0"
+  },
+  "author": "Ashrith Edukulla",
+  "license": "MIT"
+}

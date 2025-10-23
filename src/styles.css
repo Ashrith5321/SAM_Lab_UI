@@ -1,0 +1,84 @@
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+  text-align: center;
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.subtitle {
+  color: #555;
+  margin-top: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.motor-btn {
+  padding: 20px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.motor-btn.active {
+  background: #0078ff;
+  color: white;
+}
+
+.motor-btn.disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.connect-btn,
+.disconnect-btn,
+.stop-btn {
+  margin: 5px;
+  padding: 10px 18px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.connect-btn {
+  background: #0078ff;
+  color: white;
+}
+
+.disconnect-btn {
+  background: #eee;
+}
+
+.stop-btn {
+  background: #ff3b3b;
+  color: white;
+}
+
+.speed-slider {
+  margin: 20px 0;
+}
+
+.log {
+  text-align: left;
+  background: #f3f3f3;
+  border-radius: 10px;
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+  font-size: 0.8rem;
+}
+
+.warning {
+  color: red;
+  font-weight: bold;
+}
