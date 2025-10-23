@@ -16,7 +16,7 @@ export default function MotorGrid() {
   const [speed, setSpeed] = useState(200); // 0–255
   const [log, setLog] = useState([]);
   const readerRef = useRef(null);
-  const enc = useMemo(() => new TextEncoder(), []);
+  const enc = useMemo(() => new TextEncoder(), []); 
 
   // Detect browser WebSerial support
   useEffect(() => {
